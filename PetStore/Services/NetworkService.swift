@@ -9,7 +9,7 @@
 import Foundation
 
 struct APIConstants {
-    static let baseURL = "http://api-dev.cuspychatstories.com/v1"
+    static let baseURL = "http://petstore.swagger.io/v2"
 }
 
 
