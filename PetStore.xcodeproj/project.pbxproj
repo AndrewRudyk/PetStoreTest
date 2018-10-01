@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		19F69F2C8BFC688B3E4509EC /* Pods_PetStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE254C1094A75B2B4CA9C574 /* Pods_PetStore.framework */; };
+		DF8B1D23216166C40070AE53 /* PetStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D22216166C40070AE53 /* PetStoreTests.swift */; };
+		DF8B1D2C2162B4140070AE53 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D2B2162B4140070AE53 /* Order.swift */; };
+		DF8B1D2E2162B4590070AE53 /* EnumsStatuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D2D2162B4590070AE53 /* EnumsStatuses.swift */; };
+		DF8B1D302162B6FE0070AE53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D2F2162B6FE0070AE53 /* User.swift */; };
+		DF8B1D322162B7650070AE53 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D312162B7650070AE53 /* Category.swift */; };
+		DF8B1D342162B7920070AE53 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D332162B7920070AE53 /* Tag.swift */; };
+		DF8B1D362162B7D50070AE53 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B1D352162B7D50070AE53 /* Pet.swift */; };
 		DFE2E0BF215D702100D5BFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE2E0BE215D702100D5BFD4 /* AppDelegate.swift */; };
 		DFE2E0C1215D702100D5BFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE2E0C0215D702100D5BFD4 /* ViewController.swift */; };
 		DFE2E0C4215D702100D5BFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE2E0C2215D702100D5BFD4 /* Main.storyboard */; };
@@ -16,10 +23,29 @@
 		DFE2E0D3215D72EA00D5BFD4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE2E0D2215D72EA00D5BFD4 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DF8B1D25216166C40070AE53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFE2E0B3215D702100D5BFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFE2E0BA215D702100D5BFD4;
+			remoteInfo = PetStore;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2339196394ECE53693D5C26F /* Pods-PetStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetStore/Pods-PetStore.release.xcconfig"; sourceTree = "<group>"; };
 		CE4C7B425A4512396F16E816 /* Pods-PetStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetStore/Pods-PetStore.debug.xcconfig"; sourceTree = "<group>"; };
 		DE254C1094A75B2B4CA9C574 /* Pods_PetStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8B1D20216166C40070AE53 /* PetStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8B1D22216166C40070AE53 /* PetStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStoreTests.swift; sourceTree = "<group>"; };
+		DF8B1D24216166C40070AE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8B1D2B2162B4140070AE53 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		DF8B1D2D2162B4590070AE53 /* EnumsStatuses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumsStatuses.swift; sourceTree = "<group>"; };
+		DF8B1D2F2162B6FE0070AE53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DF8B1D312162B7650070AE53 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DF8B1D332162B7920070AE53 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		DF8B1D352162B7D50070AE53 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		DFE2E0BB215D702100D5BFD4 /* PetStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE2E0BE215D702100D5BFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFE2E0C0215D702100D5BFD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +57,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF8B1D1D216166C40070AE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFE2E0B8215D702100D5BFD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +92,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DF8B1D21216166C40070AE53 /* PetStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B1D22216166C40070AE53 /* PetStoreTests.swift */,
+				DF8B1D24216166C40070AE53 /* Info.plist */,
+			);
+			path = PetStoreTests;
+			sourceTree = "<group>";
+		};
+		DF8B1D2A21629BCA0070AE53 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DF8B1D2D2162B4590070AE53 /* EnumsStatuses.swift */,
+				DF8B1D2B2162B4140070AE53 /* Order.swift */,
+				DF8B1D2F2162B6FE0070AE53 /* User.swift */,
+				DF8B1D312162B7650070AE53 /* Category.swift */,
+				DF8B1D332162B7920070AE53 /* Tag.swift */,
+				DF8B1D352162B7D50070AE53 /* Pet.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		DFE2E0B2215D702100D5BFD4 = {
 			isa = PBXGroup;
 			children = (
 				DFE2E0BD215D702100D5BFD4 /* PetStore */,
+				DF8B1D21216166C40070AE53 /* PetStoreTests */,
 				DFE2E0BC215D702100D5BFD4 /* Products */,
 				C1052921C70EA5CE5392EF1C /* Pods */,
 				9E05C01310815C47B92769B6 /* Frameworks */,
@@ -73,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE2E0BB215D702100D5BFD4 /* PetStore.app */,
+				DF8B1D20216166C40070AE53 /* PetStoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +160,7 @@
 		DFE2E0D1215D72AF00D5BFD4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF8B1D2A21629BCA0070AE53 /* Entities */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -110,6 +168,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF8B1D1F216166C40070AE53 /* PetStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8B1D29216166C40070AE53 /* Build configuration list for PBXNativeTarget "PetStoreTests" */;
+			buildPhases = (
+				DF8B1D1C216166C40070AE53 /* Sources */,
+				DF8B1D1D216166C40070AE53 /* Frameworks */,
+				DF8B1D1E216166C40070AE53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8B1D26216166C40070AE53 /* PBXTargetDependency */,
+			);
+			name = PetStoreTests;
+			productName = PetStoreTests;
+			productReference = DF8B1D20216166C40070AE53 /* PetStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DFE2E0BA215D702100D5BFD4 /* PetStore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFE2E0CD215D702400D5BFD4 /* Build configuration list for PBXNativeTarget "PetStore" */;
@@ -139,6 +215,10 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = me;
 				TargetAttributes = {
+					DF8B1D1F216166C40070AE53 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DFE2E0BA215D702100D5BFD4;
+					};
 					DFE2E0BA215D702100D5BFD4 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -158,11 +238,19 @@
 			projectRoot = "";
 			targets = (
 				DFE2E0BA215D702100D5BFD4 /* PetStore */,
+				DF8B1D1F216166C40070AE53 /* PetStoreTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF8B1D1E216166C40070AE53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFE2E0B9215D702100D5BFD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,17 +303,39 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF8B1D1C216166C40070AE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8B1D23216166C40070AE53 /* PetStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DFE2E0B7215D702100D5BFD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8B1D342162B7920070AE53 /* Tag.swift in Sources */,
 				DFE2E0C1215D702100D5BFD4 /* ViewController.swift in Sources */,
 				DFE2E0D3215D72EA00D5BFD4 /* NetworkService.swift in Sources */,
+				DF8B1D362162B7D50070AE53 /* Pet.swift in Sources */,
+				DF8B1D302162B6FE0070AE53 /* User.swift in Sources */,
+				DF8B1D2E2162B4590070AE53 /* EnumsStatuses.swift in Sources */,
+				DF8B1D2C2162B4140070AE53 /* Order.swift in Sources */,
 				DFE2E0BF215D702100D5BFD4 /* AppDelegate.swift in Sources */,
+				DF8B1D322162B7650070AE53 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF8B1D26216166C40070AE53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFE2E0BA215D702100D5BFD4 /* PetStore */;
+			targetProxy = DF8B1D25216166C40070AE53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DFE2E0C2215D702100D5BFD4 /* Main.storyboard */ = {
@@ -247,6 +357,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DF8B1D27216166C40070AE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLM2L5ALVF;
+				INFOPLIST_FILE = PetStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AR.PetStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetStore.app/PetStore";
+			};
+			name = Debug;
+		};
+		DF8B1D28216166C40070AE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLM2L5ALVF;
+				INFOPLIST_FILE = PetStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AR.PetStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetStore.app/PetStore";
+			};
+			name = Release;
+		};
 		DFE2E0CB215D702400D5BFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -404,6 +554,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF8B1D29216166C40070AE53 /* Build configuration list for PBXNativeTarget "PetStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8B1D27216166C40070AE53 /* Debug */,
+				DF8B1D28216166C40070AE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DFE2E0B6215D702100D5BFD4 /* Build configuration list for PBXProject "PetStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
