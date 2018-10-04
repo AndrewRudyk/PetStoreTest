@@ -8,16 +8,6 @@
 
 import Foundation
 
-//id    integer($int64)
-//petId    integer($int64)
-//quantity    integer($int32)
-//shipDate    string($date-time)
-//status    string
-//Order Status
-//Enum:
-//[ placed, approved, delivered ]
-//complete    boolean
-
 struct Order {
     let id: Int
     let petId: Int

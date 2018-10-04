@@ -17,7 +17,7 @@ struct APIConstants {
 
 class NetworkService {
     
-    static func getPetsBy(status: PetStatuses, completion: @escaping ()->(), failure: @escaping (Error) -> ()) {
+    static func getPetsBy(status: PetStatuses, completion: @escaping ([Pet])->(), failure: @escaping (Error) -> ()) {
         let urlString = APIConstants.petByStatus
         let paremetres: Parameters = ["status": status]
         
@@ -27,8 +27,14 @@ class NetworkService {
 
             switch response.result {
             case .success:
-                print(response.debugDescription)
-                completion()
+//                print(response.debugDescription)
+                if let data = response.data,
+                    let petArray = Parser.parsePets(data: data) {
+//                    print(petArray)
+                    completion(petArray)
+                } else {
+                    failure(ParseErrors.petsDataBroken)
+                }
             case .failure(let error):
                 failure(error)
             }

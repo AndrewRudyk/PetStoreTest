@@ -10,9 +10,10 @@ import Foundation
 
 struct Pet {
     let id: Int
-    let category: Category
+    var category: Category
     let name: String
-    let photoUrls: String
-    var tags: [Tag]
+    let photoUrls: String?
+//    var tags: [Tag]
     var status: PetStatuses
 }
+

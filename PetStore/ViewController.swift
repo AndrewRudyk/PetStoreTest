@@ -18,8 +18,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func testAction(_ sender: UIButton) {
-        NetworkService.getPetsBy(status: .sold , completion: {
-            
+        NetworkService.getPetsBy(status: .sold , completion: {_ in 
+
         }) { (_) in
             
         }
